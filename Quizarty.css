@@ -1,0 +1,146 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.bgimage {
+	background-image: url('tt.jpg');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+}
+.menu{
+	width: 100%;
+	height:100px;
+	background-color: grey;
+}
+.leftmenu{
+	width: 50%;
+	line-height: 120px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.leftmenu h4{
+padding-left: 70px;
+font-weight: bold;
+color: orange;
+font-size: 20px;
+}
+.rightmenu{
+	float:right;
+}
+.rightmenu ul{
+	margin-left: 200px;
+}
+.rightmenu ul li{
+	display:inline-block;
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    list-style: none;
+}
+#firstlist{
+	color: orange;
+}
+.rightmenu ul li:hover{
+	color: cyan;
+}
+.text{
+	width: 100%;
+	margin-top: 240px;
+	text-align:center;
+	color: white;
+}
+.text h4{
+	font-size: 25px;
+	color:orange;
+}
+.text h1{
+	font-size:72px;
+	font-weight: 780px;
+	margin: 14px 0px;
+    color: khaki;
+}
+.text h3{
+	font-size: 40px;
+	color: red;
+}
+#button1{
+   background-color: white;
+   border: none;
+   font-size: 15px;
+   font-weight:bold;
+   text-transform: uppercase;
+   line-height: 40px;
+   width: 150px;
+   margin-top: 25px;
+   border:3px solid white;
+}
+#button2{
+	background-color: cyan;
+   border: none;
+   font-size: 15px;
+   font-weight:bold;
+   text-transform: uppercase;
+   line-height: 40px;
+   width: 150px;
+   margin-top: 25px;
+   border:3px solid orange;
+
+}
+.navbar.navbar-expand-sm.bg-primary{
+    box-shadow: 10px 10px 10px rgb(173, 168, 168);
+    text-align: left;
+    padding-left: 0.5in; 
+    color: white;   
+}
+
+.rightmenu{
+    text-align: right;
+}
+
+
+.cell{
+    -webkit-box-shadow: 0 0 5px 6px rgb(173, 168, 168);
+    -moz-box-shadow: 0 0 5px 6px rgb(173, 168, 168);
+    box-shadow: 0 0 5px 6px rgb(173, 168, 168);
+}
+table {
+    border-collapse: separate;
+    border-spacing: 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.cell-size{
+    height: 180px;
+    width: 180px;
+}
+
+/* .image-size{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+} */
+.icon {
+    background: rgb(248, 245, 245);
+    display: block;
+    position: relative;
+    width: 2%;
+  }
+
+  .cell:hover{
+    transform: scale(1.1);
+  
+  }
